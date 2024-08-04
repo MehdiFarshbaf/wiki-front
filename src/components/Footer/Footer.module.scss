@@ -1,2 +1,53 @@
 .footer {
+  background: var(--primary);
+  padding: 50px 0;
+
+  p {
+    color: #F2F3F4;
+  }
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  direction: rtl;
+}
+
+.logos {
+  background: var(--light-gray);
+  border-radius: 1rem;
+  max-width: 450px;
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+
+.title {
+  text-align: right;
+  font-weight: 325;
+  font-size: 12px;
+  line-height: 18.6px;
+  margin-bottom: 5px;
+}
+
+.socialsIcons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+
+  img:hover {
+    cursor: pointer;
+  }
+}
+
+.info {
+  font-size: .8rem;
+}
+
+.downloadIcons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
 }

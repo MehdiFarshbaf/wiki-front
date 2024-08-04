@@ -13,6 +13,11 @@ html, body {
 
 }
 
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .swiper-pagination {
   z-index: 1000 !important;
