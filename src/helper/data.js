@@ -88,3 +88,9 @@ export const userMenu = [
     {id: 2, label: "گوش به زنگ!", path: "/"},
     {id: 3, label: "استعلامات", path: "/"}
 ]
+export const listCars = [
+    {id: 0, name: "ایران خودرو"},
+    {id: 1, name: "بنز"},
+    {id: 2, name: "تراکتور"},
+    {id: 3, name: "دورچرخه"},
+]

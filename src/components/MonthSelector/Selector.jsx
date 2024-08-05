@@ -11,7 +11,7 @@ const Selector = ({list}) => {
     return (
         <div className={styles.container}>
             {list.map((month, index) => (
-                <div onClick={() => setSelected(month.id)}
+                <div key={index} onClick={() => setSelected(month.id)}
                      className={`${styles.item} ${select === index ? styles.selected : null}`}>
                     <p>{month.label}</p>
                 </div>
