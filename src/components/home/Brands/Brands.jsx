@@ -40,8 +40,13 @@ const Brands = () => {
                         }}
                         // onSlideChange={() => console.log('slide change')}
                     >
-                        {brands.map(brand => (
-                            <SwiperSlide key={brand.id}><BrandCard brand={brand}/></SwiperSlide>
+                        {brands.map((brand, index) => (
+                            <SwiperSlide key={brand.id}>
+                                {({isActive}) => (
+                                    <BrandCard key={index} brand={brand} isActive={isActive}/>
+                                )}
+
+                            </SwiperSlide>
                         ))}
                     </Swiper>
                 </div>

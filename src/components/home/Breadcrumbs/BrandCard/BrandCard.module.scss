@@ -1,5 +1,6 @@
 .card {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 120px;
@@ -9,10 +10,54 @@
   border-radius: 15px;
   border: 1px solid rgba(53, 49, 50, 0.2);;
   transition: all ease 0.3s;
+  text-align: center;
+}
+
+.image {
+  transition: transform ease 0.5s !important;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.4px;
+  text-wrap: nowrap !important;
+  opacity: 0 !important;
+  position: absolute;
+  bottom: 25%;
+  transition: opacity ease 0.5s, transform ease 0.5s;
+
 }
 
 .card:hover {
   border: 2px solid var(--primary);
   background: rgba(95, 237, 47, 0.2);
 
+  img {
+    transform: translateY(-35%);
+  }
+
+  .title, .badge {
+    opacity: 1 !important;
+  }
+}
+
+.badge {
+  height: 16px;
+  padding: 0 5px;
+  border-radius: 30px;
+  background-color: var(--primary);
+  opacity: 0;
+  transition: opacity ease 0.5s;
+  position: absolute;
+  bottom: 10%;
+
+  p {
+    direction: rtl;
+    font-size: 10px;
+    font-weight: 150;
+    line-height: 15.5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
 }
