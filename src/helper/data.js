@@ -36,3 +36,23 @@ export const symbolsFooter = [
     {id: 2, name: "", image: eNAMAD},
 
 ]
+
+export const navList = [
+    {id: 0, label: "خرید خودرو", subMenu: null, path: "/"},
+    {
+        id: 1, label: "ابزارها", subMenu: [
+            {id: 0, label: "محاسبه گر اقساط", path: '/'},
+            {id: 0, label: "بررسی خودروها", path: '/'},
+            {id: 0, label: "مقایسه خودروها", path: '/'},
+            {id: 0, label: "تخمین قیمت خودرو", path: '/'}
+        ]
+    },
+    {id: 2, label: "قیمت روز", subMenu: null, path: "/"},
+    {id: 3, label: "مجله خودرو", subMenu: null, path: "/"},
+    {
+        id: 4, label: "ویکی", subMenu: [
+            {id: 0, label: "درباره ما", path: '/about-us'},
+            {id: 1, label: "قوانین و مقررات", path: '/rule'}
+        ]
+    }
+]

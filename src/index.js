@@ -9,6 +9,7 @@ import './assets/styles/colors.scss'
 import './assets/styles/fontIranYekan.css'
 import './assets/styles/mantine.scss'
 import './assets/styles/styles.scss'
+import '@mantine/core/styles.css';
 
 // Swiper Styles
 // import 'swiper/scss';

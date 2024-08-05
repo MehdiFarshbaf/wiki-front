@@ -1,10 +1,11 @@
 import Footer from "../../components/Footer/Footer";
 import CopyRight from "../../components/CopyRight/CopyRight";
+import Header from "../../components/Header/Header";
 
 const MainLayout = ({children}) => {
     return (
         <>
-            <header>header</header>
+            <Header/>
             <main>{children}</main>
             <Footer/>
             <CopyRight/>

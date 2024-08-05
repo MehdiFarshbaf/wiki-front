@@ -13,6 +13,16 @@ html, body {
 
 }
 
+a {
+  text-decoration: none;
+}
+
+.relative {
+  position: relative;
+}
+
+
+
 .d-flex-center {
   display: flex;
   justify-content: center;

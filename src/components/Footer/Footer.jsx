@@ -1,6 +1,8 @@
-import styles from './Footer.module.scss'
 import {downloadWays, socialsFooter, symbolsFooter} from "../../helper/data";
 import {appConfig} from "../../helper/config";
+
+// styles
+import styles from './Footer.module.scss'
 
 const Footer = () => {
     return (
