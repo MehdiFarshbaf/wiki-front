@@ -1,9 +1,11 @@
+import NavBar from "./NavBar/NavBar";
+import {Link} from "react-router-dom";
+
 // logo
 import logo from './../../assets/images/logo.png'
 // styles
 import styles from './Header.module.scss'
-import NavBar from "./NavBar/NavBar";
-import {Link} from "react-router-dom";
+
 
 const Header = () => {
     return (
