@@ -1,0 +1,29 @@
+.select {
+  width: 100%;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  direction: rtl;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.arrow {
+  height: 24px;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder {
+  //styleName: P3;
+  font-size: 12px;
+  font-weight: 325;
+  line-height: 18.6px;
+  text-align: right;
+  color: var(--gray);
+}

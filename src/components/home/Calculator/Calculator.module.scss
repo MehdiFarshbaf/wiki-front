@@ -1,0 +1,45 @@
+.calculator {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card {
+  width: 100%;
+  border: 1px solid rgba(53, 49, 50, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.subButton {
+  padding: 6px 30px;
+  border-radius: 43px;
+  background: var(--primary);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18.6px;
+  text-align: center;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  transition: all ease 0.4s;
+
+  &:hover {
+    background: var(--primary-selected);
+  }
+}

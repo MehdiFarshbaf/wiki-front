@@ -3,7 +3,8 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  transition: all ease 0.3s;
+  transition: all ease 0.5s !important;
+
   svg {
     transform: rotate(180deg);
   }

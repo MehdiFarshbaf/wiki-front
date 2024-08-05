@@ -1,0 +1,85 @@
+.result {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  direction: rtl;
+
+  &:last-child {
+    cursor: pointer;
+  }
+}
+
+.label {
+  text-align: right;
+  //font-family: Yekan Bakh VF;
+  font-size: 10px;
+  font-weight: 325;
+  line-height: 15.5px;
+  color: var(--disable-gray);
+
+}
+
+.collapse {
+  text-align: right;
+}
+
+.price {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  span {
+    margin-right: 5px;
+    color: var(--disable-gray);
+  }
+
+  p {
+    //font-family: Yekan Bakh VF;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+    color: var(--black);
+  }
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease 0.4s !important;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.card {
+  width: 100%;
+  border: 1px solid rgba(53, 49, 50, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
