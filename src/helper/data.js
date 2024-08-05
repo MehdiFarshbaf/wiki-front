@@ -47,9 +47,9 @@ export const navList = [
     {
         id: 1, label: "ابزارها", subMenu: [
             {id: 0, label: "محاسبه گر اقساط", path: '/'},
-            {id: 0, label: "بررسی خودروها", path: '/'},
-            {id: 0, label: "مقایسه خودروها", path: '/'},
-            {id: 0, label: "تخمین قیمت خودرو", path: '/'}
+            {id: 1, label: "بررسی خودروها", path: '/'},
+            {id: 2, label: "مقایسه خودروها", path: '/'},
+            {id: 3, label: "تخمین قیمت خودرو", path: '/'}
         ]
     },
     {id: 2, label: "قیمت روز", subMenu: null, path: "/"},
@@ -81,4 +81,10 @@ export const listMonth = [
 export const listDistance = [
     {id: 0, label: "2 ماهه"},
     {id: 1, label: "6 ماهه"},
+]
+export const userMenu = [
+    {id: 0, label: "پرونده های من", path: "/"},
+    {id: 1, label: "آگهی های من", path: "/"},
+    {id: 2, label: "گوش به زنگ!", path: "/"},
+    {id: 3, label: "استعلامات", path: "/"}
 ]

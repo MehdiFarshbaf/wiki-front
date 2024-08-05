@@ -7,6 +7,7 @@ import styles from './NavBar.module.scss'
 import {ReactComponent as ArrowIcon} from '../../../assets/images/arrowLeft.svg'
 
 const NavItem = ({nav}) => {
+
     // variable
     const [opened, setOpened] = useState(false);
 
@@ -32,7 +33,6 @@ const NavItem = ({nav}) => {
                                 <p>{subMenu.label}</p>
                             </Link>
                         </Menu.Item>
-
                     ))}
                 </Menu.Dropdown>
             </Menu>

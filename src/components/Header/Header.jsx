@@ -5,6 +5,7 @@ import {Link} from "react-router-dom";
 import logo from './../../assets/images/logo.png'
 // styles
 import styles from './Header.module.scss'
+import UserLogos from "./UserLogos/UserLogos";
 
 
 const Header = () => {
@@ -18,7 +19,7 @@ const Header = () => {
                     </div>
                     <div className={styles.leftHeader}>
                         <button className={styles.button}>ثبت آگهی</button>
-                        <p>asdf</p>
+                        <UserLogos/>
                     </div>
                 </div>
             </div>

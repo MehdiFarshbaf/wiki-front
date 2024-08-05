@@ -1,0 +1,140 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.4s;
+  }
+
+  div:hover {
+    cursor: pointer;
+  }
+}
+
+.iconChange:hover {
+  cursor: pointer;
+
+  svg {
+    path {
+      fill: var(--auxan);
+    }
+  }
+}
+
+.iconUser:hover {
+  cursor: pointer;
+
+  svg {
+    path {
+      fill: var(--auxan);
+    }
+  }
+
+  .arrow {
+    //svg {
+    transform: rotate(180deg);
+    //}
+  }
+}
+
+.searchIcon {
+
+  border-radius: 100%;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchIcon:hover {
+  background: var(--auxan-transparent);
+}
+
+.iconFav:hover {
+  cursor: pointer;
+
+  svg {
+    background: transparent;
+
+    path {
+      fill: var(--danger);
+      filter: drop-shadow(0px 0px 8px #b71c1c);
+
+    }
+  }
+}
+
+.arrow {
+  transition: all ease 0.4s !important;
+}
+
+.containerArrow {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerArrow:hover {
+  transition: all ease 0.4s !important;
+
+  .arrow {
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.dropdown {
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+
+  p {
+    color: black;
+    text-align: right;
+  }
+}
+
+.item {
+  background: transparent !important;
+  border-bottom: 1px solid var(--light-gray) !important;
+  border-radius: 0 !important;
+  transition: border-bottom-color ease 0.5s;
+}
+
+
+.item:hover {
+  //background: transparent !important;
+  border-bottom: 1px solid var(--auxan) !important;
+}
+
+.item:last-child {
+  border: none !important;
+}
+
+.item:last-child:hover {
+  border: none !important;
+}
+
+.btnExit {
+
+  cursor: pointer;
+  padding: 6px 20px;
+  border-radius: 43px;
+  background: var(--gray);
+  color: var(--black);
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  transition: all ease 0.5s;
+}
+
+.btnExit:hover {
+  color: var(--white);
+  background-color: var(--danger);
+}
