@@ -1,7 +1,7 @@
 import {appConfig} from "./config";
 
 export const changeTitlePage = (title = '') => {
-    title === "" ? document.title = appConfig.pageTitle : `${appConfig.pageTitle} | ${title}`
+    document.title = title == "" ? appConfig.pageTitle : `${appConfig.pageTitle} | ${title}`
 }
 
 export const copyTextToClipboard = (text, message) => {

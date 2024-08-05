@@ -13,21 +13,21 @@ const NavItem = ({nav}) => {
     return (
         <div className="relative">
             <Menu
-                classNames={{
-                    dropdown: styles.dropdown,
-                    item: styles.item,
-                }}
-                opened={opened} onChange={setOpened} trigger="click-hover" openDelay={100} closeDelay={400}>
+                  classNames={{
+                      dropdown: styles.dropdown,
+                      item: styles.item,
+                  }}
+                  opened={opened} onChange={setOpened} trigger="click-hover" openDelay={100} closeDelay={400}>
                 <Menu.Target>
-                    <div key={nav.id}
-                         className={styles.navItem}>
+                    <div
+                        className={styles.navItem}>
                         <p>{nav.label}</p>
                         <ArrowIcon className={styles.arrow_image}/>
                     </div>
                 </Menu.Target>
                 <Menu.Dropdown>
                     {nav.subMenu.map(subMenu => (
-                        <Menu.Item>
+                        <Menu.Item key={subMenu.id}>
                             <Link to={subMenu.path} onClick={() => setOpened(false)}>
                                 <p>{subMenu.label}</p>
                             </Link>

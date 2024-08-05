@@ -16,7 +16,7 @@ const Breadcrumbs = () => {
     ]
 
     return (
-        <div className={styles.breadcrumbs}>
+        <section className={styles.breadcrumbs}>
             <div className="inside">
                 <div className={styles.container}>
                     <div className={styles.right}>
@@ -36,7 +36,7 @@ const Breadcrumbs = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 export default Breadcrumbs

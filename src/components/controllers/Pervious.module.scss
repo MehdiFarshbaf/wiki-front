@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition: all ease 0.3s;
+
+
+}
+
+.container:hover {
+  svg {
+    path {
+      fill: var(--auxan);
+    }
+  }
+}

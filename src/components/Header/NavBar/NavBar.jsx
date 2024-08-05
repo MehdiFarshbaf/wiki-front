@@ -12,7 +12,7 @@ const NavBar = () => {
             {navList.map(nav =>
                 nav.subMenu == null ?
                     <Link key={nav.id} className={styles.navItem} to={nav.path}><p>{nav.label}</p></Link> :
-                    <NavItem nav={nav}/>
+                    <NavItem key={nav.id} nav={nav}/>
             )}
         </nav>
     )

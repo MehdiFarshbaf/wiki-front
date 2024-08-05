@@ -16,6 +16,11 @@ import eNAMAD from '../assets/images/namds/eNAMAD.ir.png'
 import AnjomanSenfi from '../assets/images/namds/AnjomanSenfi.png'
 import NezamSenfi from '../assets/images/namds/NezamSenfi.png'
 
+// import brands
+import fastBrand from '../assets/images/brands/Faraaz.png'
+import gardeshBrand from '../assets/images/brands/Gardeshgary.png'
+import thBrand from '../assets/images/brands/3.png'
+
 export const downloadWays = [
     {id: 0, name: "", image: BazaarIcon},
     {id: 1, name: "", image: MyketIcon},
@@ -55,4 +60,16 @@ export const navList = [
             {id: 1, label: "قوانین و مقررات", path: '/rule'}
         ]
     }
+]
+
+export const brands = [
+    {id: 0, title: "بانک گردشگری", image: fastBrand, fee: "26"},
+    {id: 1, title: "فراز اندیشان", image: gardeshBrand, fee: "26"},
+    {id: 2, title: "واسپاری فردا", image: thBrand, fee: "26"},
+    {id: 3, title: "بانک گردشگری", image: fastBrand, fee: "26"},
+    {id: 4, title: "فراز اندیشان", image: gardeshBrand, fee: "26"},
+    {id: 5, title: "واسپاری فردا", image: thBrand, fee: "26"},
+    {id: 6, title: "بانک گردشگری", image: fastBrand, fee: "26"},
+    {id: 7, title: "فراز اندیشان", image: gardeshBrand, fee: "26"},
+    {id: 8, title: "واسپاری فردا", image: thBrand, fee: "26"},
 ]

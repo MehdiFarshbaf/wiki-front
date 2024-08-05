@@ -12,10 +12,10 @@ import './assets/styles/styles.scss'
 import '@mantine/core/styles.css';
 
 // Swiper Styles
-// import 'swiper/scss';
-// import 'swiper/scss/navigation';
-// import 'swiper/scss/pagination';
-// import "swiper/css/effect-fade";
+import 'swiper/scss';
+import 'swiper/scss/navigation';
+import 'swiper/scss/pagination';
+import "swiper/css/effect-fade";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
