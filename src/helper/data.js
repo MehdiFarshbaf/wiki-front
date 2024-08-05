@@ -73,3 +73,12 @@ export const brands = [
     {id: 7, title: "فراز اندیشان", image: gardeshBrand, fee: "26"},
     {id: 8, title: "واسپاری فردا", image: thBrand, fee: "26"},
 ]
+export const listMonth = [
+    {id: 0, label: "12 ماهه"},
+    {id: 1, label: "24 ماهه"},
+    {id: 2, label: "36 ماهه"}
+]
+export const listDistance = [
+    {id: 0, label: "2 ماهه"},
+    {id: 1, label: "6 ماهه"},
+]

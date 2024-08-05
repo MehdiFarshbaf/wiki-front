@@ -43,3 +43,70 @@
     background: var(--primary-selected);
   }
 }
+
+.item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  direction: rtl;
+}
+
+.label {
+  //font-family: Yekan Bakh VF;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18.6px;
+  text-align: right;
+  color: var(--black);
+}
+
+.price {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  span {
+    margin-right: 5px;
+    color: var(--disable-gray);
+  }
+
+  p {
+    //font-family: Yekan Bakh VF;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+    color: var(--black);
+  }
+}
+
+.containerTrack {
+  transition: all ease 0.4s;
+
+  &:hover {
+    svg {
+      fill: var(--auxan);
+    }
+  }
+}
+
+.trackContainer {
+  width: 100%;
+}
+
+.root {
+  width: 100%;
+}
+
+.bar {
+  display: none;
+}
+
+.thumb {
+  border-color: transparent !important;
+  background-color: transparent !important;
+}
+
+.track {
+  height: 2px !important;
+}

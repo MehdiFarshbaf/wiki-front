@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.item {
+  cursor: pointer;
+  padding: 0 15px;
+  border-radius: 33px;
+  height: 25px;
+  border: 1px solid var(--primary);
+
+  p {
+    text-align: center;
+    //font-family: Yekan Bakh VF;
+    font-size: 12px;
+    font-weight: 325;
+    line-height: 18.6px;
+    color: var(--primary);
+
+  }
+
+  transition: all ease 0.4s;
+}
+
+.item:hover {
+  background: var(--primary);
+
+  p {
+    color: var(--white);
+  }
+}
+
+.selected {
+  background: var(--primary);
+
+  p {
+    color: var(--white);
+  }
+}
